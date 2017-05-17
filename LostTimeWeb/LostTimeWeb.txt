@@ -1,0 +1,27 @@
+/usr/local/share/dotnet/sdk/1.0.4/Microsoft.Common.CurrentVersion.targets(1964,5): warning MSB3277: Found conflicts between different versions of the same dependent assembly that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed. [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+/Users/kore_p/.nuget/packages/microsoft.extensions.configuration.usersecrets/1.1.2/build/netstandard1.0/Microsoft.Extensions.Configuration.UserSecrets.targets(24,5): warning USERSECRETS001: The assembly attribute 'UserSecretsIdAttribute' could not be generated because the 'UserSecretsId' property was empty or missing. UserSecretsIdAttribute may be required for .AddUserSecrets() to function correctly. [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+Controllers/AccountController.cs(14,19): error CS0234: The type or namespace name 'Services' does not exist in the namespace 'LostTimeWeb' (are you missing an assembly reference?) [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+Controllers/ManageController.cs(12,19): error CS0234: The type or namespace name 'Services' does not exist in the namespace 'LostTimeWeb' (are you missing an assembly reference?) [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs(13,33): error CS0115: 'CreateIdentitySchema.BuildTargetModel(ModelBuilder)': no suitable method found to override [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+CSC : error CS1705: Assembly 'Microsoft.EntityFrameworkCore.Relational' with identity 'Microsoft.EntityFrameworkCore.Relational, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' uses 'Microsoft.EntityFrameworkCore, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' which has a higher version than referenced assembly 'Microsoft.EntityFrameworkCore' with identity 'Microsoft.EntityFrameworkCore, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+Controllers/AccountController.cs(23,26): error CS0246: The type or namespace name 'IEmailSender' could not be found (are you missing a using directive or an assembly reference?) [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+Controllers/AccountController.cs(24,26): error CS0118: 'ISmsSender' is a namespace but is used like a type [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+Controllers/AccountController.cs(32,13): error CS0246: The type or namespace name 'IEmailSender' could not be found (are you missing a using directive or an assembly reference?) [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+Controllers/AccountController.cs(33,13): error CS0118: 'ISmsSender' is a namespace but is used like a type [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+Controllers/ManageController.cs(22,26): error CS0246: The type or namespace name 'IEmailSender' could not be found (are you missing a using directive or an assembly reference?) [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+Controllers/ManageController.cs(23,26): error CS0118: 'ISmsSender' is a namespace but is used like a type [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+Controllers/ManageController.cs(30,11): error CS0246: The type or namespace name 'IEmailSender' could not be found (are you missing a using directive or an assembly reference?) [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]
+
+Controllers/ManageController.cs(31,11): error CS0118: 'ISmsSender' is a namespace but is used like a type [/Users/kore_p/GitHubFolder/VueSpaDotnet/LostTimeWeb/LostTimeWeb.csproj]

@@ -11,7 +11,7 @@ namespace LostTimeWeb.Data.Migrations
     [Migration("00000000000000_CreateIdentitySchema")]
     partial class CreateIdentitySchema
     {
-        protected  void BuildTargetModel(ModelBuilder modelBuilder)
+        protected  void BuildTargetModel(ModelBuilder modelBuilder) // ovveride ?
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.2");
